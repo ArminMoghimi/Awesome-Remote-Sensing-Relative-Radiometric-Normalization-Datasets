@@ -20,6 +20,6 @@ Dataset 7 comprises of a pair of the full scene ASTER (4927*5575 pixels) over We
 The thermal bands (including the band 10 to 14 in the ASTER images and band 6 in the Landsat 7/5 images) and the cirrus band (band 10 of Sentinel 2B images) were discarded for RRN. The 30m/pixel bands (six short wave infrared (SWIR) bands) of ASTER images were sharpened to the 30m/pixel of the three visual near-infrared (VNIR) bands by PCA fusion technique PCA-based pan-sharpening technique. The spatial resolution of 20m/pixel and 60m/pixel bands of the sentinel 2 images were enhanced to 10m/pixel by the Sen2Res model which is available in the Sentinel Application Platform (SNAP) open-source software. For dataset 5, first, spectral bands of WorldView2 and WorldView3 images were sharpened to 31cm/pixel and 40cm/pixel panchromatic bands, respectively with the PCA-based pan-sharpening technique. Then, both of them were resampled to 40cm/pixel by nearest-neighbor resampling.
 
 if you use These datasets, Please cite 
-A. Moghimi, A. Mohammadzadeh, T. Celik, M. Amani, "A Novel Radiometric Control Set Sample Selection Strategy for Relative Radiometric Normalization of Multi-temporal Satellite Images", Geoscience and Remote Sensing IEEE Transactions, accepted manuscripts awaiting publication.
+A. Moghimi, A. Mohammadzadeh, T. Celik and M. Amani, "A Novel Radiometric Control Set Sample Selection Strategy for Relative Radiometric Normalization of Multitemporal Satellite Images," in IEEE Transactions on Geoscience and Remote Sensing, doi: 10.1109/TGRS.2020.2995394.
 
  
